@@ -1,0 +1,186 @@
+
+@media only screen
+and (max-height: 900px) {
+    body{
+        /*border: 1px solid blue;*/
+        font-size: 14px;
+    }
+    .slidersWrap .scrollableText .hypedText span{
+        /*font-size: 160px;
+        line-height: 135px;*/
+        font-size: 9em;
+        line-height: 0.85;
+        letter-spacing: -5px;
+    }
+    .topWrap,
+    .topWrap .topWrapInner{
+        /*height: 420px;*/
+    }
+    .topWrap .inner .logo{
+        /*padding-top: 25px;*/
+    }
+    .subscriptWrap{
+        /*padding: 5px 0;*/
+    }
+    .shortLinks{
+        margin-bottom: 50px;
+    }
+    .slidersWrap{
+        /*top: -20px;*/
+    }
+    .slidersWrap .scrollableText{
+        /*height: 300px;*/
+        width: 800px;
+    }
+    .slidersWrap .scrollableText .items .item{
+        width: 800px;
+    }
+
+    .slidersWrap .scrollablePhone{
+        /*background-image: url("../img/phone_mask_responsive_13.png");
+        top: -160px;
+        margin-left: -298px;
+        width: 310px;
+        height: 624px;*/
+    }
+    #scrollablePhone{
+        /*top:106px;
+        left: 24px;
+        width: 255px;
+        height: 429px;*/
+    }
+    #scrollablePhone .items .item{
+        /*width: 255px;
+        height: 429px;*/
+    }
+    #scrollablePhone .items .item img{
+        /*width: 100%;*/
+    }
+    .subscriptWrap .inner form .bubble{
+        /*padding: 10px 12px;
+        position: absolute;
+        top: -54px;
+        left: 0;
+        background: #fff;
+        border-radius: 6px;
+        box-shadow:  0 2px 6px rgba(0,0,0,.28);*/
+        /*font-size: .785em;*/
+        /*font-size: .785em;*/
+        top: -72px;
+    }
+    .subscriptWrap .inner form .bubble_corner{
+        /*position: absolute;
+        width: 29px;
+        height: 14px;
+        background: transparent url("../img/bubble_corner.png") 0 0 no-repeat;
+        top: -28px;
+        left: 20px;*/
+    }
+
+}
+@media only screen
+and (max-height: 780px) {
+    body{
+            font-size: 14px;
+        }
+        .slidersWrap .scrollableText .hypedText span{
+            /*font-size: 160px;
+            line-height: 135px;*/
+            font-size: 9em;
+            line-height: 0.85;
+            letter-spacing: -5px;
+        }
+        .topWrap,
+        .topWrap .topWrapInner{
+            height: 420px;
+        }
+        .topWrap .inner .logo{
+            padding-top: 25px;
+        }
+        .subscriptWrap{
+            padding: 5px 0;
+        }
+        .shortLinks{
+            margin-bottom: 50px;
+        }
+        .slidersWrap{
+            top: -20px;
+        }
+        .slidersWrap .scrollableText{
+            height: 300px;
+            width: 800px;
+        }
+        .slidersWrap .scrollableText .items .item{
+            width: 800px;
+        }
+
+        .slidersWrap .scrollablePhone{
+            background-image: url("../img/phone_mask_responsive_13.png");
+            top: -160px;
+            margin-left: -298px;
+            width: 310px;
+            height: 624px;
+        }
+        #scrollablePhone{
+            top:106px;
+            left: 24px;
+            width: 255px;
+            height: 429px;
+        }
+        #scrollablePhone .items .item{
+            width: 255px;
+            height: 429px;
+        }
+        #scrollablePhone .items .item img{
+            width: 100%;
+        }
+        .subscriptWrap .inner form .bubble{
+            padding: 10px 12px;
+            position: absolute;
+            top: -54px;
+            left: 0;
+            background: #fff;
+            border-radius: 6px;
+            box-shadow:  0 2px 6px rgba(0,0,0,.28);
+            font-size: .785em;
+        }
+        .subscriptWrap .inner form .bubble_corner{
+            position: absolute;
+            width: 29px;
+            height: 14px;
+            background: transparent url("../img/bubble_corner.png") 0 0 no-repeat;
+            top: -28px;
+            left: 20px;
+        }
+}
+/*@media only screen
+and (max-height: 570px) {
+    body{
+        border: 1px solid #9acd32;
+    }
+}
+@media only screen
+and (max-height: 470px) {
+    body{
+        border: 1px solid orange;
+    }
+}*/
+/*  Hide Slider Arrows on screen width less than 1160px      */
+@media only screen
+    and (max-width : 1160px) {
+    /* Styles */
+    body{
+        width: 100%;
+    }
+    .slidersWrap .prev,
+        .slidersWrap .next{
+            display: none;
+        }
+    }
+
+/*  Media Queries for iPad  */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+}

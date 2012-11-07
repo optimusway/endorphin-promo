@@ -1,0 +1,103 @@
+    /*
+root element for the scrollable.  when scrolling occurs this
+element stays still.
+*/
+
+.scrollableText,
+#scrollablePhone{
+  /* required settings */
+  position:relative;
+  overflow:hidden;
+  width: 800px;
+  height:90px;
+}
+#scrollablePhone{
+    width: 320px;
+    height: 548px;
+    top: 134px;
+    left: 31px;
+    position: relative;
+}
+
+/*
+root element for scrollable items. Must be absolutely positioned
+and it should have a extremely large width to accommodate scrollable
+items.  it's enough that you set width and height for the root element
+and not for this element.
+*/
+.scrollableText .items,
+.scrollablePhone .items{
+  /* this cannot be too large */
+  width:20000em;
+  position:absolute;
+}
+.scrollableText .items .item{
+    width: 800px;
+    height: 350px;
+}
+
+/*
+a single item. must be floated in horizontal scrolling.  typically,
+this element is the one that *you* will style the most.
+*/
+.items div {
+  float:left;
+}
+
+/*  Prev / Next Buttons */
+.slidersWrap{
+    position: relative;
+}
+.slidersWrap .prev,
+.slidersWrap .next{
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 45px;
+    height: 70px;
+    background-image: url("../img/slider_controls.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.slidersWrap .prev{
+    left: -100px;
+    background-position: 0 0;
+}
+.slidersWrap a.prev:hover{
+    background-position: 0 -70px;
+}
+.slidersWrap .prev.disabled,
+.slidersWrap a.prev.disabled:hover{
+    background-position: 0 -140px;
+    cursor: default;
+}
+.slidersWrap .next{
+    margin-left: 44px;
+    left: 100%;
+    background-position: -45px 0;
+}
+.slidersWrap a.next:hover{
+    background-position: -45px -70px;
+}
+.slidersWrap .next.disabled,
+.slidersWrap a.next.disabled:hover{
+    background-position: -45px -140px;
+    cursor: default;
+}
+.slidersWrap .navi{}
+.slidersWrap .navi a{
+    margin-right: 10px;
+    float: left;
+    display: block;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #bbbab1;
+    cursor: pointer;
+}
+.slidersWrap .navi a.active{
+    background-color: #77766d;
+    cursor: default;
+}
+
