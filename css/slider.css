@@ -18,6 +18,17 @@ element stays still.
     left: 31px;
     position: relative;
 }
+    #scrollablePhone{
+                /*top:106px;
+                left: 24px;*/
+                width: 320px;
+                height: 548px;
+            }
+            #scrollablePhone .items .item{
+                width: 320px;
+                height: 548px;
+    			background-size: 100%;
+            }
 
 /*
 root element for scrollable items. Must be absolutely positioned

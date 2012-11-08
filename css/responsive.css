@@ -130,6 +130,7 @@ and (max-height: 780px) {
         #scrollablePhone .items .item{
             width: 255px;
             height: 429px;
+			background-size: 100%;
         }
         #scrollablePhone .items .item img{
             width: 100%;

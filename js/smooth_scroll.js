@@ -1,11 +1,4 @@
-/**
- * Created with JetBrains WebStorm.
- * User: Volodymyr.Kuriy
- * Date: 04/11/12
- * Time: 10:47
- * To change this template use File | Settings | File Templates.
- */
-$(document).ready(function() {
+$(function() {
       function filterPath(string) {
       return string
         .replace(/^\//,'')
@@ -52,4 +45,4 @@ $(document).ready(function() {
         return [];
       }
 
-    });
+});
