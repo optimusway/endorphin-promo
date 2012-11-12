@@ -99,6 +99,10 @@ a:hover{
 .topWrap,
 .topWrap .topWrapInner{
     height: 540px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .topWrap{
     /*background: #edece6 url("../img/slider_bg.png") center top;*/
@@ -244,6 +248,19 @@ a:hover{
 
                 position: relative;
                 top: -2px;
+            }
+            .subscriptWrap .inner form label.error{
+                padding: 5px;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                color: #fff;
+                font-size: .75em;
+                background: #DC4238;
+                border-radius: 4px;
+                margin-top: 10px;
+
+
             }
                 .subscriptWrap .inner form .bubble{
                     padding: 10px 12px;
