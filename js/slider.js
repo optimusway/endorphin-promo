@@ -86,12 +86,10 @@
 		updateHeights();
 		initSliders();
 	});
-    $(window).bind('resize', function() {
-    		updateHeights();
-    		initSliders();
-            sliderHandler( null, currentIndex );
-            window.screenSlider.slide( currentIndex );
-            return false;
-    	});
-	
+    $(window).smartresize(function(){
+        updateHeights();
+        initSliders();
+        sliderHandler( null, currentIndex );
+        window.screenSlider.slide( currentIndex );
+    });
 });
