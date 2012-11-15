@@ -16,70 +16,23 @@ and (max-height: 900px) {
     .topWrap .topWrapInner{
         /*height: 420px;*/
     }
-    .topWrap .inner .logo{
-        /*padding-top: 25px;*/
-    }
-    .subscriptWrap{
-        /*padding: 5px 0;*/
-    }
-    .shortLinks{
-        margin-bottom: 50px;
-    }
-    .slidersWrap{
-        /*top: -20px;*/
-    }
-    .slidersWrap .scrollableText{
-        /*height: 300px;*/
-        width: 800px;
-    }
-    .slidersWrap .scrollableText .items .item{
-        width: 800px;
-    }
+    .shortLinks{margin-bottom: 50px;}
+    .slidersWrap .scrollableText{width: 800px;}
+    .slidersWrap .scrollableText .items .item{width: 800px;}
+    .subscriptWrap .inner form .bubble{top: -72px;}
 
-    .slidersWrap .scrollablePhone{
-        /*background-image: url("../img/phone_mask_responsive_13.png");
-        top: -160px;
-        margin-left: -298px;
-        width: 310px;
-        height: 624px;*/
+    .slidersWrap .scrollableText .smallText{
+        width: 580px;
     }
-    #scrollablePhone{
-        /*top:106px;
-        left: 24px;
-        width: 255px;
-        height: 429px;*/
+    .slidersWrap .scrollableText .regularText{
+        width: 580px;
     }
-    #scrollablePhone .items .item{
-        /*width: 255px;
-        height: 429px;*/
-    }
-    #scrollablePhone .items .item img{
-        /*width: 100%;*/
-    }
-    .subscriptWrap .inner form .bubble{
-        /*padding: 10px 12px;
-        position: absolute;
-        top: -54px;
-        left: 0;
-        background: #fff;
-        border-radius: 6px;
-        box-shadow:  0 2px 6px rgba(0,0,0,.28);*/
-        /*font-size: .785em;*/
-        /*font-size: .785em;*/
-        top: -72px;
-    }
-    .subscriptWrap .inner form .bubble_corner{
-        /*position: absolute;
-        width: 29px;
-        height: 14px;
-        background: transparent url("../img/bubble_corner.png") 0 0 no-repeat;
-        top: -28px;
-        left: 20px;*/
-    }
-
 }
 @media only screen
 and (max-height: 780px) {
+    .slidersWrap .scrollableText .regularText{
+            width: 615px;
+        }
     body{
             font-size: 14px;
         }
@@ -138,7 +91,7 @@ and (max-height: 780px) {
         .subscriptWrap .inner form .bubble{
             padding: 10px 12px;
             position: absolute;
-            top: -54px;
+            top: -58px;
             left: 0;
             background: #fff;
             border-radius: 6px;

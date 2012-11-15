@@ -204,7 +204,9 @@ a:hover{
     margin-left: -361px;
     position: absolute;
     background: transparent url("../img/phone_mask.png") 0 0 no-repeat;
-    z-index: 999;
+    z-index: 10;
+    overflow: hidden;
+
 }
 /*Subscribe form wrapper*/
 .subscriptWrap{
@@ -386,6 +388,7 @@ a:hover{
 .sharing{
     text-align: center;
     border-top: 1px solid #e0e0e0;
+    clear: both;
 }
 .sharing .inner{
     margin: 0 auto 60px;
@@ -413,7 +416,9 @@ a:hover{
     }
     .sharing .inner .socLinks{
         float: left;
+        position: relative;
     }
+    .sharing .inner .socLinks a{}
 
     /*  How it Works section    */
 .howWorks{
@@ -591,4 +596,11 @@ footer{
 
 :-moz-placeholder {
     color: #e06c64;
+}
+
+.slidersWrap .scrollableText .smallText{
+    width: 450px;
+}
+.slidersWrap .scrollableText .regularText{
+    width: 530px;
 }

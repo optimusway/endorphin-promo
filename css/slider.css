@@ -19,8 +19,6 @@ element stays still.
     position: relative;
 }
     #scrollablePhone{
-                /*top:106px;
-                left: 24px;*/
                 width: 320px;
                 height: 548px;
             }
