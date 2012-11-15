@@ -474,11 +474,15 @@ footer{
     }
         footer .inner .mailUs{
             float: left;
+            line-height: 20px;
         }
         footer .inner .slogan{
             float: right;
+            line-height: 20px;
         }
-        footer .inner .copy{}
+        footer .inner .copy{
+            line-height: 20px;
+        }
 
 /*Icons*/
 [class^="icon-"], [class*=" icon-"] {
